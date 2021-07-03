@@ -1,0 +1,17 @@
+{
+  "name": "awsBook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx pm2 start ./server.js --name hello_aws --log ../aws_logs/app.log",
+    "stop": "npx pm2 stop hello_aws"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.1.0"
+  }
+}
